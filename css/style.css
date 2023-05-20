@@ -6,6 +6,7 @@ body
     font-size: 16px;
     margin:0;
     padding: 0;
+    
 }
 #container{
     width: 70%;
@@ -13,6 +14,7 @@ body
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+    justify-content: center;
 }
 #container h1{
     font-size: 20px;
@@ -34,4 +36,12 @@ body
 #logo{
     width: 20px;
     vertical-align: middle;
+}
+#footer{
+    width: 100%;
+    padding: 0.2rem;
+    background-color:darkcyan;
+    color: white;
+    text-align: center;
+    font-weight: bold;
 }
